@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
-import ShouldIBuy from './ShouldIBuy';
+import InvReCalc from './InvReCalc';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ShouldIBuy />
+    <InvReCalc />
   </React.StrictMode>,
   document.getElementById('root')
 );
