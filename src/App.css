@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
+z .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+
+.app {
+  background: #f7e43d;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list {
+  background: #95edf8;
+  border-radius: 5px;
+  border-style: solid;
+  padding: 10px;
+  max-width: 500px;
+}
+
+.input-form {
+  font-size: 14px;
+  margin:5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-form {
+  background: #f7d6c7;
+  border-radius: 5px;
+  padding: 20px;
+  max-width: 600px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+
+.todo {
+  background: #fff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  padding: 3px 10px;
+  font-size: 12px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.todo-heading {
+  font-size: 24px;
+}
+
